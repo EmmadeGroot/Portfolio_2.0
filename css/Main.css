@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Righteous&family=Shizuru&display=swap");
+:root {
+  --primary-color:rgb(18, 221, 187);
+}
+
+body {
+  background: #f5fff9;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar li a:hover {
+  color: dimgray;
+}
+
+.navbar .primary-nav {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  list-style-type: none;
+  margin-left: 2em;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 2em;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.secondary-nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  list-style-type: inline;
+  float: right;
+}
+
+.secondary-nav li {
+  margin: 2em;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  font-size: 1.2em;
+  list-style-type: inline;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  float: left;
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .hero-image {
+  height: 350px;
+  width: 225x;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-color);
+  letter-spacing: .2em;
+  font-size: 1.5em;
+}
+
+.left-col h1 {
+  font-family: 'Righteous';
+  font-size: 5em;
+  text-transform: uppercase;
+  letter-spacing: .7em;
+  line-height: .2em;
+}
+
+.left-col .primary-cta {
+  color: Black;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: .6em 1.3em;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5em;
+  display: inline-block;
+}
+
+.skills-section .container {
+  background-color: white;
+  border-radius: 10%;
+  padding-left: 1em;
+  margin-left: 12em;
+  margin-right: 50em;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.skills-section .container li {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+.skills-section .container .skill-image {
+  height: 800px;
+  width: 600px;
+  border-radius: 10%;
+  margin-left: 35em;
+  margin-top: -30em;
+  position: relative;
+}
+
+.skills-section .container h2 {
+  font-family: Righteous;
+  font-weight: bold;
+  font-size: 2em;
+  margin: .2em;
+}
+
+h1 {
+  font-family: 'Righteous';
+  font-size: 3em;
+  letter-spacing: .2em;
+}
+
+.about-me section {
+  background-color: white;
+  margin-left: 5em;
+  margin-right: 25em;
+}
+
+.about-me section .Picture-Of-Me {
+  height: 100px;
+  width: 50px;
+  margin-left: 10em;
+}
+
+.footer-container {
+  background-color: var(--primary-color);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.footer-container .footer-nav li {
+  font-weight: 400;
+}
+
+.footer-container .footer-nav li a {
+  color: white;
+}
+/*# sourceMappingURL=Main.css.map */

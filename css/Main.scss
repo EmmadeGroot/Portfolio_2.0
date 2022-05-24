@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Righteous&family=Shizuru&display=swap');
+
+:root {
+    --primary-color:rgb(18, 221, 187);
+}
+body { 
+    background:#f5fff9;
+    margin: 0;
+    font-family: 'Nunito';
+}
+
+.navbar { 
+    background: rgb(255, 255, 255);
+    padding: 1em;
+
+    li a:hover {
+        color: rgb(105, 105, 105);
+     }
+
+    .primary-nav {
+        justify-content:start;
+        list-style-type: none;
+        margin-left: 2em;
+        padding: 0;   
+        }
+        li {
+            display: inline;
+            margin: 2em;
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+    }
+
+    .secondary-nav  {
+        justify-content:end;
+        list-style-type: inline;
+        float: right;
+        
+        li{
+            
+            margin: 2em;
+            font-weight: 700;
+            font-size: 1.2em;
+            
+        }
+        
+    }
+    .logo {
+        text-decoration: none;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        font-size: 1.2em; 
+        list-style-type: inline;
+        justify-content: flex-start;
+        float: left;
+
+        span {
+            color:var(--primary-color);
+        }   
+    
+}
+
+
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+section { 
+    padding: 5em 2em;
+}
+
+
+.hero { 
+    text-align: center;
+
+    .hero-image {
+        height: 350px;
+        width: 225x;
+        align-items: center;
+    }
+}
+
+
+.left-col {
+
+    .subhead {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--primary-color);
+        letter-spacing: .2em;
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-family: 'Righteous';
+        font-size: 5em;
+        text-transform: uppercase;
+        letter-spacing: .7em;
+        line-height: .2em;
+    }
+
+    .primary-cta {
+       color: Black;
+       text-decoration: none;
+       text-transform: capitalize;
+       padding: .6em 1.3em;
+       font-size: 1.5em;
+       font-weight: bold;
+       border-radius: 5em;
+       display: inline-block; 
+       
+    }
+}
+
+.skills-section {
+    .container {
+        background-color:white;
+        border-radius: 10%;
+        padding-left: 1em;
+        margin-left: 12em;
+        margin-right: 50em;
+        margin-top: 10em;
+        margin-bottom: 10em;
+        padding-right: 1em;
+        padding-top: 1em;
+    
+        li {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        }
+
+        .skill-image {
+            height: 800px;
+            width: 600px;
+            border-radius: 10%;
+            margin-left: 35em;
+            margin-top: -30em;
+            position: relative;   
+        }
+
+        
+        h2 {
+            font-family: Righteous;
+            font-weight: bold;
+            font-size: 2em;
+            margin: .2em;
+        }
+        
+    }
+
+}
+
+
+
+//page about
+h1 {
+    font-family: 'Righteous';
+    font-size: 3em;
+    letter-spacing: .2em;
+}
+
+.about-me {
+    section {
+        background-color: rgb(255, 255, 255);
+        margin-left:5em;
+        margin-right: 25em;
+
+       .Picture-Of-Me {
+           height: 100px;
+           width: 50px;
+        margin-left: 10em;
+       }
+
+    }
+}
+
+
+
+
+
+//page Schoolwork
+
+
+//DICA
+
+//MMD
+
+//MQ
+
+//WD
+
+//IMSP
+
+//BMC
+
+//Project
+
+
+//page original work
+
+
+
+
+
+
+
+.footer-container {
+    
+    background-color: var(--primary-color);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+
+    .footer-nav {
+      
+        li {
+            font-weight: 400;
+            a{
+                color: white;
+            }
+        }
+       
+    }
+}
+
